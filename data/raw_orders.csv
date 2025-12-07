@@ -1,0 +1,4 @@
+order_id,customer_key,customer_name,customer_email,product_key,product_name,product_category,quantity,unit_price,order_date
+ORD101,CUST1,Amit,amit@mail.com,PRD1,Laptop,Electronics,1,50000,2025-01-01
+ORD102,CUST2,Riya,riya@mail.com,PRD2,Mobile,Electronics,2,20000,2025-01-02
+ORD103,CUST1,Amit,amit@mail.com,PRD3,Mouse,Accessories,3,500,2025-01-03
