@@ -51,12 +51,10 @@ ECOMMERCE-Data-Warehouse/
 flowchart LR
     A[Raw CSV (raw_orders.csv)]
     --> B[Python ETL (pandas + psycopg2)]
-    --> C[(PostgreSQL Data Warehouse)]
+    --> C[PostgreSQL Data Warehouse]
     --> D[Fact & Dimension Tables]
     --> E[Analytics Queries (SQL)]
 ```
-
----
 
 ## 🧱 Star Schema Design
 
