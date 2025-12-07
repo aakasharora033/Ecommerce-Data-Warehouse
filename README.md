@@ -49,11 +49,11 @@ ECOMMERCE-Data-Warehouse/
 
 ```mermaid
 flowchart LR
-    A[Raw CSV\n(raw_orders.csv)]
-    --> B[Python ETL Script\n(pandas + psycopg2)]
+    A[Raw CSV (raw_orders.csv)]
+    --> B[Python ETL (pandas + psycopg2)]
     --> C[(PostgreSQL Data Warehouse)]
     --> D[Fact & Dimension Tables]
-    --> E[Analytics Queries\n(SQL)]
+    --> E[Analytics Queries (SQL)]
 ```
 
 ---
